@@ -1,0 +1,20 @@
+.book {
+    box-shadow: 2px 2px 1px gray,
+        4px 4px 1px rgb(85, 84, 84),
+        6px 6px 1px rgb(126, 124, 124),
+        8px 8px 1px rgb(71, 71, 71);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ellipsis {
+        display: block;
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
