@@ -59,7 +59,10 @@ export default function Home() {
           </p>
           <p className="mt-2 font-semibold">Author - Jamie olsen</p>
           <div className="mt-6">
-            <Link className="w-[100px] h-[35px] leading-[35px] text-center bg-sky-800 text-white inline-block outline-0 rounded-sm">
+            <Link
+              to="/shop/detail-product/1"
+              className="w-[100px] h-[35px] leading-[35px] text-center bg-sky-800 text-white inline-block outline-0 rounded-sm"
+            >
               Next
             </Link>
           </div>
